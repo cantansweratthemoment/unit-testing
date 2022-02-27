@@ -1,3 +1,5 @@
+package function;
+
 import function.FunctionTanX;
 import org.junit.jupiter.api.*;
 
