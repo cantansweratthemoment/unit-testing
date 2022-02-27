@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 import static java.lang.Math.PI;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Tester {
+public class FunctionTester {
     FunctionTanX functionTanX = new FunctionTanX();
 
 
