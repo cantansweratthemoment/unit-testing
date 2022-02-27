@@ -22,7 +22,7 @@ public class FunctionTanX {
 
     public BigDecimal calculateSin(double x) {
         BigDecimal sin = new BigDecimal(0);
-        for (int n = 0; n < 1000; n++) {
+        for (int n = 0; n < 100; n++) {
             sin = sin.add(new BigDecimal(-1).pow(n).multiply(new BigDecimal(x).pow(2 * n + 1)).divide(new BigDecimal(calculateFactorial(2 * n + 1)), 1000, RoundingMode.DOWN));
         }
         return sin;
@@ -30,7 +30,7 @@ public class FunctionTanX {
 
     public BigDecimal calculateCos(double x) {
         BigDecimal cos = new BigDecimal(0);
-        for (int n = 0; n < 1000; n++) {
+        for (int n = 0; n < 100; n++) {
             cos = cos.add(new BigDecimal(-1).pow(n).multiply(new BigDecimal(x).pow(2 * n)).divide(new BigDecimal(calculateFactorial(2 * n)), 1000, RoundingMode.DOWN));
         }
         return cos;
