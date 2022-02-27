@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5c6e498-3e27-4679-9977-5560963a3652" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/FunctionTanX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/FunctionTanX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/function/FunctionTanX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/FunctionTanX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tester.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.37586206" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.Tester.groupAssertions">
+  <component name="RunManager" selected="JUnit.Tester">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="st1" />
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tester" />
         <item itemvalue="JUnit.Tester.groupAssertions" />
         <item itemvalue="JUnit.Tester.assertion (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Tester.assertion" />
-        <item itemvalue="JUnit.Tester" />
       </list>
     </recent_temporary>
   </component>
@@ -133,11 +136,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645968513640</updated>
-      <workItem from="1645968515012" duration="19267000" />
+      <workItem from="1645968515012" duration="23407000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/st1$Tester.ic" NAME="Tester Coverage Results" MODIFIED="1645994751731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
