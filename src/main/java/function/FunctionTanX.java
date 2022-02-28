@@ -19,7 +19,7 @@ public class FunctionTanX {
     }
 
     public Number calculate(double x) {
-        if (x == (PI/2) || x == (3*PI)/2) return new Number(null, true);
+        if ((x % (PI/2) == 0 || x % ((3*PI)/2) == 0) && x!=0) return new Number(null, true);
         return new Number(calculateSin(x).divide(calculateCos(x), 10000, RoundingMode.HALF_UP), false);
     }
 
