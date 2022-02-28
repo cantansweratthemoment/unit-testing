@@ -24,6 +24,17 @@ public class FunctionTanX {
     }
 
 
+
+
+    /*  Необычное представение функции
+       oo
+       ---
+       \     (-1)^n * x^(2n+1)
+       /    ------------------
+       ---      (2*n+1)!
+       i=0
+
+     */
     public BigDecimal calculateSin(double x) {
         BigDecimal sin = new BigDecimal(0);
         for (int n = 0; n < 900; n++) {
@@ -32,6 +43,16 @@ public class FunctionTanX {
         return sin;
     }
 
+
+        /*  Необычное представение функции
+       oo
+       ---
+       \     (-1)^n * x^(2n)
+       /    ------------------
+       ---      (2*n)!
+       i=0
+
+     */
     public BigDecimal calculateCos(double x) {
         BigDecimal cos = new BigDecimal(0);
         for (int n = 0; n < 900; n++) {
