@@ -8,8 +8,6 @@ import static java.lang.Math.PI;
 
 public class FunctionTanX {
 
-    Number number;
-
     public BigInteger calculateFactorial(int n) {
         BigInteger result = new BigInteger(String.valueOf(1));
         for (int i = 1; i <= n; i++) {
@@ -18,22 +16,24 @@ public class FunctionTanX {
         return result;
     }
 
+    /*  Необычное представение функции
+                 sin(x)
+     tg(x) =  -------------
+                 cos(x)
+     */
     public Number calculate(double x) {
-        if ((x % (PI/2) == 0 || x % ((3*PI)/2) == 0) && x!=0) return new Number(null, true);
+        if ((x % (PI / 2) == 0 || x % ((3 * PI) / 2) == 0) && x != 0) return new Number(null, true);
         return new Number(calculateSin(x).divide(calculateCos(x), 10000, RoundingMode.HALF_UP), false);
     }
 
 
-
-
-    /*  Необычное представение функции
+    /* 
        oo
        ---
        \     (-1)^n * x^(2n+1)
-       /    ------------------
+       /    ------------------          <---- это ряд Тейлора sin(x)
        ---      (2*n+1)!
-       i=0
-
+       n=0
      */
     public BigDecimal calculateSin(double x) {
         BigDecimal sin = new BigDecimal(0);
@@ -44,14 +44,13 @@ public class FunctionTanX {
     }
 
 
-        /*  Необычное представение функции
+    /*
        oo
        ---
        \     (-1)^n * x^(2n)
-       /    ------------------
+       /    ------------------       <---- это ряд Тейлора cos(x)
        ---      (2*n)!
-       i=0
-
+       n=0
      */
     public BigDecimal calculateCos(double x) {
         BigDecimal cos = new BigDecimal(0);
